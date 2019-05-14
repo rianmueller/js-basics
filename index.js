@@ -231,7 +231,6 @@ var fullName = firstName + ' ' + lastName;
 console.log(fullName);
 console.log('"Hi my name is ' + fullName + ' and I was born in ' + birthPlace + '."');;
 
-
 /*
 * #9 
 * Arithmetic
@@ -248,6 +247,18 @@ console.log('"Hi my name is ' + fullName + ' and I was born in ' + birthPlace + 
 * Console.log each new variable.
 */
 
+var num1 = 1;
+var num2 = 2;
+var sum = num1 + num2;
+var difference = num1 - num2;
+var product = num1 * num2;
+var quotient = num1 / num2;
+var leftOver = num1 % num2;
+console.log(sum);
+console.log(difference);
+console.log(product);
+console.log(quotient);
+console.log(leftOver);
 
 /*
 * #10
