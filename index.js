@@ -98,26 +98,39 @@ console.log(cheesecakesFlavAtCheeseCakeFac);
 *
 */
 
+var likesMcDonalds = true;
+console.log(likesMcDonalds);
+
+var eatsDoughnuts = true;
+console.log(eatsDoughnuts);
+
+var ownsRedShoes = true;
+console.log(ownsRedShoes);
+
 //For example:
 //Make me True:
 var booya1 = 3 > 2; 
 console.log(booya1);
 
 //Make me False:
-var booya2;
+var booya2 = 3 < 2;
+console.log(booya2);
 
 //Make me True:
-var booya3;
+var booya3 = 3 >= 3;
+console.log(booya3);
 
 //Make me False:
-var booya4;
+var booya4 = 2 <= 1;
+console.log(booya4);
 
 //Make me True:
-var booya5; 
+var booya5 = 1 === 1;
+console.log(booya5);
 
 //Make me False:
-var booya6;
-
+var booya6 = 1 !== 1;
+console.log(booya6);
 
 /*
 * #4
