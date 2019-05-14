@@ -22,11 +22,35 @@ console.log(pet);  // <= this should print out sebastian the pug
 * Assign your own string values to each variable and console.log each variable.
 */
 
-var firstName = 'Vic';
+var firstName = 'Rian';
 console.log(firstName);
 
-var lastName = 'Lee';
-console.log(lastName)
+var lastName = 'Mueller';
+console.log(lastName);
+
+var birthPlace = 'Vancouver';
+console.log(birthPlace);
+
+var favFood = 'Sugar';
+console.log(favFood);
+
+var favDrink = 'Water';
+console.log(favDrink);
+
+var favSong = 'Happy birthday';
+console.log(favSong);
+
+var favAnimal = 'Goat';
+console.log(favAnimal);
+
+var favColor = 'Blue';
+console.log(favColor);
+
+var favSport = 'Canoeing';
+console.log(favSport);
+
+var favDonut = 'Boston creme';
+console.log(favDonut);
 
 
 /*
@@ -38,11 +62,7 @@ console.log(lastName)
 * Assign your own number values to each variable and console.log each variable.
 */
 
-function add(num1, num2){
-    return num1 + num2;
-}
-var sum = add(3, 7);
-console.log(sum);
+
 
 /*
 * #3
