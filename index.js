@@ -62,7 +62,26 @@ console.log(favDonut);
 * Assign your own number values to each variable and console.log each variable.
 */
 
+var favNumber = 1;
+console.log(favNumber);
 
+var yourShoeSize = 12;
+console.log(yourShoeSize);
+
+var thatOnePrinceSong = 1999;
+console.log(thatOnePrinceSong);
+
+var floorsAlaMoanaHotel = 13;
+console.log(floorsAlaMoanaHotel);
+
+var numOfJapanPrefectures = 40;
+console.log(numOfJapanPrefectures);
+
+var numOfABCstoresinHi = 26;
+console.log(numOfABCstoresinHi);
+
+var cheesecakesFlavAtCheeseCakeFac = 31;
+console.log(cheesecakesFlavAtCheeseCakeFac);
 
 /*
 * #3
