@@ -4,7 +4,7 @@
 
 /* All of the exercises below are commented out. Write your Javascript code after each exercise. */
 
-
+//testtesttest
 /* Variables and Data Types */
 /*Console.log each variable and test your code in the terminal using the Node REPL*/
 
