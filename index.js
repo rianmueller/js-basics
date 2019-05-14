@@ -182,6 +182,23 @@ console.log(hawaiiRail);
 * Console.log each variable.
 */
 
+var plateLunch = ['fish', 'rice', 'seaweed', 'edamame', 'bread'];
+console.log(plateLunch);
+
+var donutBox = ['cruller', 'bear claw', 'maple bar', 'jelly', 'twist'];
+console.log(donutBox);
+
+var westCoast = ['Washington', 'Oregon', 'California'];
+console.log(westCoast);
+
+var lotteryResult = [47, 37, 5, 23, 42];
+console.log(lotteryResult);
+
+var hamajang = ['string', 1, true, null, 'another string', 2];
+console.log(hamajang);
+
+var dynamicDuos = [['peanut butter', 'jelly'], ['Batman', 'Robin'], ['toast', 'jam']];
+console.log(dynamicDuos);
 
 //*7
 //Accessing values in Arrays
