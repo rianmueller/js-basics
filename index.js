@@ -159,6 +159,14 @@ console.log(buyVicADrink);
 * Do not assign a value to the variable and console.log each variable.
 */
 
+var superBowlChamps;
+console.log(superBowlChamps);
+
+var nextPres;
+console.log(nextPres);
+
+var hawaiiRail;
+console.log(hawaiiRail);
 
 /*
 * #6
