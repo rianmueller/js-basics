@@ -317,18 +317,32 @@ console.log(booya10);
 * Change the value of the muNum variable by using the assignment operators and console.log myNum after each assignment.
 */
 
-
+var myNum = 47;
 
 //increment and assign 3 (+=):
 
+myNum += 3;
+console.log(myNum);
+
 //decrement and assign 1 (-=):
+
+myNum -= 1;
+console.log(myNum);
 
 //multiple and assign 2 (*=);
 
+myNum *= 2;
+console.log(myNum);
+
 //divide and assign 5 (/=);
+
+myNum /= 5;
+console.log(myNum);
 
 //modulo and assign 4 (%=);
 
+myNum %= 4;
+console.log(myNum);
 
 /*===================================================================*/
 
@@ -348,6 +362,12 @@ console.log(booya10);
 * Declare a variable pieResult and assign it to the function call.
 * Console.log the variable to see the result.*/
 
+function bakePie(ingredient){
+    return "Today's special is " + ingredient + " pie.";
+}
+console.log(bakePie('blueberry'));
+//var pieResult = bakePie('blueberry');
+//console.log(pieResult);
 
 /*
 * Declare a Function named jump which has a single parameter, height.
@@ -360,6 +380,12 @@ console.log(booya10);
 * Console.log the variable to see the result.
 */
 
+function jump(height){
+    return "You jumped " + height + " feet high!";
+}
+    var jumpResult = jump(23);
+    console.log(jumpResult);
+ //   console.log(jump(23));
 
 /*
 * Declare a Function named makeFood which takes three parameters, ingredient1, ingredient2, recipeName.
@@ -371,3 +397,7 @@ console.log(booya10);
 * Declare a variable foodResult and assign it to the function call. Console.log the variable to see the result.
 */
 
+function makeFood(ingredient1, ingredient2, recipeName){
+    return ingredient1 + ' and ' + ingredient2 + ' make a ' + recipeName + '.';
+}
+console.log(makeFood('cheese', 'bacon', 'pizza'));
