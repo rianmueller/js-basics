@@ -210,6 +210,11 @@ var partyList = ["carrot cake", "gin & tonic", "kalua pork nachos", "double stuf
 // Console.log only "carrot cake" from this array.
 // Console.log only "cool ranch doritos" from this array
 
+console.log(partyList);
+console.log(partyList.length);
+console.log(partyList[0]);
+console.log(partyList[4]);
+
 /*
 * #8 
 * Concatenation 
