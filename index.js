@@ -227,6 +227,10 @@ console.log(partyList[4]);
 * i.e "Hi my name is Bruce Wayne and I was born in Gotham."
 */
 
+var fullName = firstName + ' ' + lastName;
+console.log(fullName);
+console.log('"Hi my name is ' + fullName + ' and I was born in ' + birthPlace + '."');;
+
 
 /*
 * #9 
