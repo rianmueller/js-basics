@@ -141,6 +141,14 @@ console.log(booya6);
 * Assign a null value to each variable and console.log each variable. 
 */
 
+var completedPrepClass = null;
+console.log(completedPrepClass);
+
+var traveledToMars = null;
+console.log(traveledToMars);
+
+var buyVicADrink = null;
+console.log(buyVicADrink);
 
 /*
 * #5
