@@ -290,19 +290,22 @@ console.log('"Loose equalities appear to require the same value but ignore data 
 */
 
 //Use && to make me True
-var booya7;
+var booya7 = 1 < 2 && 3 >= 2;
 
 //Use && to make me False
-var booya8;
+var booya8 = 1 > 2 && 3 <= 2;
 
 //Use || to make me True
-var booya9;
+var booya9 = 1 < 2 || 3 <= 2;
 
 //Use || to make me False
-var booya10;
+var booya10 = 1 > 2 || 3 <= 2;
 
 //Console.log each variable
-
+console.log(booya7);
+console.log(booya8);
+console.log(booya9);
+console.log(booya10);
 
 /*
 * #12
