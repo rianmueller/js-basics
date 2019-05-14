@@ -273,6 +273,15 @@ console.log(leftOver);
 * Console.log the variables. Do you see the difference between strict equality vs. equality?
 */
 
+var isStrictlyEqual = 'Tacocat' === 'tacocat';
+var isLooselyEqual = 'Tacocat' == 'tacocat';
+var sameNum = '5' === 5;
+var sameNumba = '5' == 5;
+console.log(isStrictlyEqual);
+console.log(isLooselyEqual);
+console.log(sameNum);
+console.log(sameNumba);
+console.log('"Loose equalities appear to require the same value but ignore data type, whereas strict equalities require the same value and same data type."')
 
 /* 
 * #11
