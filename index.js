@@ -4,7 +4,7 @@
 
 /* All of the exercises below are commented out. Write your Javascript code after each exercise. */
 
-//testtesttest
+
 /* Variables and Data Types */
 /*Console.log each variable and test your code in the terminal using the Node REPL*/
 
@@ -38,6 +38,11 @@ console.log(lastName)
 * Assign your own number values to each variable and console.log each variable.
 */
 
+function add(num1, num2){
+    return num1 + num2;
+}
+var sum = add(3, 7);
+console.log(sum);
 
 /*
 * #3
