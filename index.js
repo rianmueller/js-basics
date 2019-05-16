@@ -365,9 +365,8 @@ console.log(myNum);
 function bakePie(ingredient){
     return "Today's special is " + ingredient + " pie.";
 }
-console.log(bakePie('blueberry'));
-//var pieResult = bakePie('blueberry');
-//console.log(pieResult);
+var pieResult = bakePie('blueberry');
+console.log(pieResult);
 
 /*
 * Declare a Function named jump which has a single parameter, height.
@@ -385,7 +384,6 @@ function jump(height){
 }
     var jumpResult = jump(23);
     console.log(jumpResult);
- //   console.log(jump(23));
 
 /*
 * Declare a Function named makeFood which takes three parameters, ingredient1, ingredient2, recipeName.
@@ -400,4 +398,5 @@ function jump(height){
 function makeFood(ingredient1, ingredient2, recipeName){
     return ingredient1 + ' and ' + ingredient2 + ' make a ' + recipeName + '.';
 }
-console.log(makeFood('cheese', 'bacon', 'pizza'));
+var foodResult = makeFood('cheese', 'bacon', 'pizza')
+console.log(foodResult);
